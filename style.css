@@ -1,0 +1,76 @@
+body {
+  background: lightgreen;
+  font-family: LOVELO;
+text-align: center;
+}
+
+
+
+h1 {
+  color: rosybrown;
+  font-size: 70px;
+  background: whitesmoke;
+  font-family: 'Mate SC', serif;;
+}
+
+h2, h3, h4 {
+  font-size: 40px;
+  background: rosybrown;
+  font-family: LOVELO;
+}
+
+p, ul, ol {
+  color: sandybrown;
+  font-size: 20px;
+
+
+}
+article {
+  color: rebeccapurple;
+}
+
+
+
+img {
+  width: 1000px;
+  height:300px;
+  object-fit: cover;
+}
+
+a:hover {
+  color: mediumvioletred;
+}
+
+a, a:hover {
+  text-decoration: none;
+}
+
+.my-navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #E2F3DC;
+}
+
+.logo {
+  height: 100px;
+  width: 100px;
+  display: flex;
+  border-radius: 300px;
+  border: 4px solid black;
+
+}
+   
+.links {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.link {
+  margin: 10px 30px;
+  color: #9F3442;
+}
+
+.link:hover {
+  color: #458D2E;
+}
